@@ -1,2 +1,2 @@
 # JS---yt
-A code repo of me while learning javascript
+A code repo of my codes while learning javascript
