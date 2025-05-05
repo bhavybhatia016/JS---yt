@@ -1,0 +1,10 @@
+button {
+    color: brown;
+    cursor: pointer;
+}
+#btn-1{
+    color: green; /*this #btn-1 is the specific id of the button that has more wieght thts why cascalding - weight is more and green color is applied instead of the blue color */
+}
+.btn{
+    color: blue;
+}

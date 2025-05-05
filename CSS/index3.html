@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div {
+            border:1px solid black;
+            
+        }
+
+        .parent {
+            height: 250px;
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: start;
+            /* gap: 10px; */
+        }
+        .child  {
+            height: 50px;
+            width: 80px;
+            flex:1;
+            order: 10;
+            
+        }
+        #class2 {
+            /* flex: 2; */
+            order: 1;
+        }
+        #class3 {
+            /* flex: 2; */
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">Item 1</div>
+        <div id="class2" class="child">Item 2</div>
+        <div class="child">Item 3</div>
+        <div id="class3" class="child">Item 4</div>
+    </div>
+</body>
+</html>
