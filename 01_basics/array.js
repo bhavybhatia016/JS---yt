@@ -1,0 +1,12 @@
+let fruits =["apple", "cherry", "banana"];
+let intfruits = new Array("Hemlo","bro");
+fruits[0]="blueberry";
+console.log(fruits);
+console.log(intfruits);
+console.log(fruits.length);
+fruits.push("grapes");
+console.log(fruits);
+fruits.unshift("new item");
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
